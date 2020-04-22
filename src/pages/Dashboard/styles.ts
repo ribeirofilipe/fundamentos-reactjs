@@ -61,6 +61,20 @@ export const TableContainer = styled.section`
       text-align: left;
       font-size: 16px;
       line-height: 24px;
+
+      span {
+        display: flex;
+        align-items: center;
+
+        p {
+          cursor: pointer;
+          margin-right: 10px;
+        }
+
+        svg {
+          cursor: pointer;
+        }
+      }
     }
 
     td {
@@ -70,6 +84,17 @@ export const TableContainer = styled.section`
       font-size: 16px;
       font-weight: normal;
       color: #969cb3;
+
+      span {
+        display: flex;
+        align-items: center;
+
+        img {
+          width: 20px;
+          height: 20px;
+          margin-right: 10px;
+        }
+      }
 
       &.title {
         color: #363f5f;
